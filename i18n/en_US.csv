@@ -1,0 +1,7 @@
+"Please select indexers.","Please select indexers."
+"Total of %1 index(es) have reindexed data.","Total of %1 index(es) have reindexed data."
+"Cannot initialize the indexer process.","Cannot initialize the indexer process."
+"%1 index was rebuilt.","%1 index was rebuilt."
+"There was a problem with reindexing process.","There was a problem with reindexing process."
+"Reindex Data","Reindex Data"
+Action,Action

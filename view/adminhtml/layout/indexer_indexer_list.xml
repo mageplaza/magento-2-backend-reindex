@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Mageplaza
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Mageplaza.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.mageplaza.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Mageplaza
+ * @package     Mageplaza_BackendReindex
+ * @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+ * @license     https://www.mageplaza.com/LICENSE.txt
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="adminhtml.indexer.grid.grid.massaction">
+            <arguments>
+                <argument name="options" xsi:type="array">
+                    <item name="reindex_data" xsi:type="array">
+                        <item name="label" xsi:type="string" translate="true">Reindex Data</item>
+                        <item name="url" xsi:type="string">*/indexer/massReindex</item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+        <referenceBlock name="adminhtml.indexer.grid.columnSet">
+            <block class="Magento\Backend\Block\Widget\Grid\Column" name="adminhtml.indexer.reindex.action" as="action">
+                <arguments>
+                    <argument name="type" xsi:type="string">action</argument>
+                    <argument name="header" xsi:type="string" translate="true">Action</argument>
+                    <argument name="filter" xsi:type="string">0</argument>
+                    <argument name="sortable" xsi:type="string">0</argument>
+                    <argument name="index" xsi:type="string">indexer_id</argument>
+                    <argument name="actions" xsi:type="array">
+                        <item name="reindex" xsi:type="array">
+                            <item name="caption" xsi:type="string" translate="true">Reindex Data</item>
+                            <item name="url" xsi:type="array">
+                                <item name="base" xsi:type="string">*/*/reindex</item>
+                            </item>
+                            <item name="field" xsi:type="string">id</item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>
