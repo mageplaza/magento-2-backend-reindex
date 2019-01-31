@@ -1,7 +1,6 @@
 ## Documentation
 
 - Installation guide: https://www.mageplaza.com/install-magento-2-extension/#solution-1-ready-to-paste
-- User Guide: https://docs.mageplaza.com/better-change-qty/index.html
 - Product page: https://www.mageplaza.com/magento-2-better-change-qty/
 - FAQs: https://www.mageplaza.com/faqs/
 - Get Support: https://www.mageplaza.com/contact.html or support@mageplaza.com
