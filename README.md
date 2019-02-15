@@ -27,7 +27,7 @@ A: Yes, you can reindex all easily, select Mass Action box, click Select All the
 
 **Q: I am a store owner. Our store has many admins. How can I set access ability to reindex action for specific accounts only?**
 
-A: Please go to System > User Roles > Add new role > Select index management, save then select admin account to allow access. 
+A: Please go to `System > User Roles > Add new role > Select index management`, save then select admin account to allow access. 
 
 ## 3. How to install Backend Reindex extension for Magento 2
 
@@ -65,6 +65,7 @@ This is time-saving for store owners in case there are updates on all the data o
 ![Imgur](https://i.imgur.com/iobo0Sj.png)
 
 ### Reindex notification
+
 The notification will appear right after any indexers have been updated.  The notification will inform store admins to know that the indexer has been rebuilt successfully. 
 
 When the number of indexers which are reindexed is more than one, there will be a notification about the total of successful updates. Store admins can make sure that their actions are done and check the frontend performance for the final result. 
@@ -82,11 +83,12 @@ As a result, store owners can control which admin accounts are allowed to access
 ![Imgur](https://i.imgur.com/1O7GLaj.png)
 
 ## 5. Full Features List
-Enable/ Disable backend reindex 
-Reindex data from the admin backend
-Partly reindex or reindex all the indexes
-Notification after finishing reindex
-Allow accessing ability by admin role 
+
+- Enable/ Disable backend reindex 
+- Reindex data from the admin backend
+- Partly reindex or reindex all the indexes
+- Notification after finishing reindex
+- Allow accessing ability by admin role 
 
  
 ## 6. User Guide
@@ -99,7 +101,7 @@ From the admin backend, go to `System > Index Management`
 
 ### Reindex one indexer:
 
-At the Action box, click on Reindex Data to reindex each indexer separately. 
+At the **Action** box, click on **Reindex Data** to reindex each indexer separately. 
 
 ![Imgur](https://i.imgur.com/hvRRinh.png)
 
@@ -107,16 +109,16 @@ At the Action box, click on Reindex Data to reindex each indexer separately.
 ### Reindex some indexers:
 
   - Click to select the indexers you need to reindex
-  - Select Reindex Data 
-  - Click Submit 
+  - Select **Reindex Data** 
+  - Click **Submit** 
 
  ![Imgur](https://i.imgur.com/0j4q32o.png)
 
 ### Reindex all the indexers
 
-- Click on Mass Actions box, choose Select All 
-- Select Reindex Data 
-- Click Submit 
+- Click on **Mass Actions** box, choose **Select All** 
+- Select **Reindex Data** 
+- Click **Submit** 
 
 ![Imgur](https://i.imgur.com/fUn2aV0.png)
 
@@ -128,11 +130,11 @@ At the Action box, click on Reindex Data to reindex each indexer separately.
  
 #### Step 2: Add a new role resource
 
-Fill in role information at Role Information section
+Fill in role information at **Role Information** section
 
 ![Imgur](https://i.imgur.com/3H9By5B.png)
 
-Select index management role at Role Resources section, then click on Save Role 
+Select index management role at **Role Resources** section, then click on **Save Role** 
 
 ![Imgur](https://i.imgur.com/3aIoSyz.png)
 
