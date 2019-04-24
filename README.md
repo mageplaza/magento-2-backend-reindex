@@ -1,4 +1,4 @@
-# Magento 2 Backend Reindex Free Extension by Mageplaza
+# Magento 2 Backend Reindex Free by Mageplaza
 
 Magento 2 [Backend Reindex](https://www.mageplaza.com/magento-2-backend-reindex/) by Mageplaza allows store admins to update individual or all indexes manually right from the admin backend easily instead of running command line. 
 
