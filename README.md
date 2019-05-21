@@ -1,9 +1,9 @@
-# Magento 2 Backend Reindex Free by Mageplaza
+# Magento 2 Backend Reindex Free
 
 Magento 2 [Backend Reindex](https://www.mageplaza.com/magento-2-backend-reindex/) by Mageplaza allows store admins to update individual or all indexes manually right from the admin backend easily instead of running command line. 
 
 
-## 1. Documentation
+## 1. Backend Reindex Documentation
 
 - [Installation guide](https://www.mageplaza.com/install-magento-2-extension/)
 - [User guide](https://docs.mageplaza.com/backend-reindex/index.html)
@@ -11,7 +11,7 @@ Magento 2 [Backend Reindex](https://www.mageplaza.com/magento-2-backend-reindex/
 - [Contribute on Github](https://github.com/mageplaza/magento-2-backend-reindex)
 - [Get Support](https://github.com/mageplaza/magento-2-backend-reindex/issues)
 
-## 2. FAQ
+## 2. Reindex FAQ
 
 **Q: I got error: Mageplaza_Core has been already defined**
 
@@ -43,9 +43,9 @@ php bin/magento setup:static-content:deploy
 
 ## 4. Highlight Features 
 
-### Reindex data within Magento admin 
+### Reindex data within Magento 2 admin 
 
-The extension allows store owners to choose the indexers easily and reindex them when there are any updates on the data from Index Management section from the admin backend easily. 
+**Magento 2 Reindex extension** allows store owners to choose the indexers easily and reindex them when there are any updates on the data from Index Management section from the admin backend easily. 
 
 For example, some typical indexers are: 
 - Customer Grid: Rebuild Customer grid index
@@ -54,15 +54,15 @@ For example, some typical indexers are:
 - Product Price: Index product prices
 - Stock: Index stock
 
-![Imgur](https://i.imgur.com/OY7MSLA.png)
+![Magento 2 Reindex extension](https://i.imgur.com/OY7MSLA.png)
 
 ### Reindex all in one click 
 
-Reindex Data allows store owners to submit data which needs to be reindexed in just one click. From the admin backend, it is easy to select all or deselect all the indexes and do actions quickly.  
+**Reindex All Data** allows store owners to submit data which needs to be reindexed in just one click. From the admin backend, it is easy to select all or deselect all the indexes and do actions quickly.  
 
 This is time-saving for store owners in case there are updates on all the data of stores. Instead of running command line with unfamiliar codes, any store admins can reindex data easily from the backend.
 
-![Imgur](https://i.imgur.com/iobo0Sj.png)
+![Magento 2 Reindex all](https://i.imgur.com/iobo0Sj.png)
 
 ### Reindex notification
 
@@ -70,7 +70,7 @@ The notification will appear right after any indexers have been updated.  The no
 
 When the number of indexers which are reindexed is more than one, there will be a notification about the total of successful updates. Store admins can make sure that their actions are done and check the frontend performance for the final result. 
 
-![Imgur](https://i.imgur.com/aLjxtu2.png)
+![Magento 2 Reindex notification](https://i.imgur.com/aLjxtu2.png)
 
 
 ### Access restriction 
@@ -80,64 +80,86 @@ This can be done easily from the setting index management with specific admin ro
 
 As a result, store owners can control which admin accounts are allowed to access reindex action in the backend. 
 
-![Imgur](https://i.imgur.com/1O7GLaj.png)
+![Magento 2 Reindex Access restriction](https://i.imgur.com/1O7GLaj.png)
 
-## 5. Full Features List
+## 5. Full Magento 2 Reindex Features
 
 - Enable/ Disable backend reindex 
-- Reindex data from the admin backend
+- Reindex data from admin in Magento 2 backend
 - Partly reindex or reindex all the indexes
 - Notification after finishing reindex
 - Allow accessing ability by admin role 
 
  
-## 6. User Guide
+## 6. Reindex User Guide
 
-### 6.1. Configuration Section
+### 6.1. Configuration Reindex Section
 
 From the admin backend, go to `System > Index Management` 
 
-![Imgur](https://i.imgur.com/IWBgPPC.png)
+![Magento 2 Configuration Reindex Section](https://i.imgur.com/IWBgPPC.png)
 
-### Reindex one indexer:
+#### Reindex one indexer:
 
 At the **Action** box, click on **Reindex Data** to reindex each indexer separately. 
 
-![Imgur](https://i.imgur.com/hvRRinh.png)
+![Magento 2 Reindex one indexer](https://i.imgur.com/hvRRinh.png)
 
 
-### Reindex some indexers:
+#### Reindex some indexers:
 
   - Click to select the indexers you need to reindex
   - Select **Reindex Data** 
   - Click **Submit** 
 
- ![Imgur](https://i.imgur.com/0j4q32o.png)
+ ![Magento 2 Reindex some indexers](https://i.imgur.com/0j4q32o.png)
 
-### Reindex all the indexers
+#### Reindex all the indexers
 
 - Click on **Mass Actions** box, choose **Select All** 
 - Select **Reindex Data** 
 - Click **Submit** 
 
-![Imgur](https://i.imgur.com/fUn2aV0.png)
+![Magento 2 Reindex all the indexers](https://i.imgur.com/fUn2aV0.png)
 
 ### 6.2. User roles with reindex
 
 #### Step 1: Go to `Admin > System > User role`
 
-![Imgur](https://i.imgur.com/Ch0qBSS.png)
+![User roles with reindex](https://i.imgur.com/Ch0qBSS.png)
  
 #### Step 2: Add a new role resource
 
 Fill in role information at **Role Information** section
 
-![Imgur](https://i.imgur.com/3H9By5B.png)
+![Add a new role resource](https://i.imgur.com/3H9By5B.png)
 
 Select index management role at **Role Resources** section, then click on **Save Role** 
 
-![Imgur](https://i.imgur.com/3aIoSyz.png)
+![Magento 2 Add a new role resource](https://i.imgur.com/3aIoSyz.png)
 
 #### Step 3: Set role users for admin accounts, then click on Save Role to finish. 
 
-![Imgur](https://i.imgur.com/hveeS2l.png)
+![Magento 2 Set role users for admin accounts](https://i.imgur.com/hveeS2l.png)
+
+**People also search:**
+- reindex magento 2
+- magento 2 reindex from admin
+- magento 2 reindex
+- how to reindex in magento 2
+- magento 2 reindex all
+- reindex in magento 2
+- magento 2 reindex extension
+- reindexing in magento 2
+- magento 2.3 reindex
+- reindex magento 2 from admin
+
+**Other free extension on Github**
+- [Magento 2 SEO Suite](https://github.com/mageplaza/magento-2-seo)
+- [M2 Google Maps](https://github.com/mageplaza/magento-2-google-maps)
+- [M2 Delete Orders](https://github.com/mageplaza/magento-2-delete-orders)
+- [M2 GDPR Free](https://github.com/mageplaza/magento-2-gdpr)
+- [M2 login as customer](https://github.com/mageplaza/magento-2-login-as-customer)
+- [M2 Same Order Number](https://github.com/mageplaza/magento-2-same-order-number)
+- [M2 Ajax Layered Navigation](https://github.com/mageplaza/magento-2-ajax-layered-navigation)
+- [M2 security module](https://github.com/mageplaza/magento-2-security)
