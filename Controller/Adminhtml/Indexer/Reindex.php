@@ -21,6 +21,8 @@
 
 namespace Mageplaza\BackendReindex\Controller\Adminhtml\Indexer;
 
+use Exception;
+use Magento\Framework\Exception\LocalizedException;
 use Mageplaza\BackendReindex\Controller\Adminhtml\Indexer;
 
 /**
@@ -43,10 +45,10 @@ class Reindex extends Indexer
                 $indexer->reindexAll();
 
                 $this->messageManager->addSuccessMessage(__('%1 index was rebuilt.', $indexer->getTitle()));
-            } catch (\Magento\Framework\Exception\LocalizedException $e) {
+            } catch (LocalizedException $e) {
                 $this->messageManager->addErrorMessage($e->getMessage());
-            } catch (\Exception $e) {
-                $this->messageManager->addExceptionMessage($e, __("There was a problem with reindexing process."));
+            } catch (Exception $e) {
+                $this->messageManager->addExceptionMessage($e, __('There was a problem with reindexing process.'));
             }
         } else {
             $this->messageManager->addErrorMessage(__('Cannot initialize the indexer process.'));
