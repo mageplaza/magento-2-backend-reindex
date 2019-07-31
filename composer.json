@@ -2,7 +2,7 @@
   "name": "mageplaza/module-backend-reindex",
   "description": "Magento 2 Backend Reindex Extension",
   "require": {
-    "mageplaza/module-core": "^1.4.3"
+    "mageplaza/module-core": "^1.4.5"
   },
   "type": "magento2-module",
   "version": "1.0.1",
