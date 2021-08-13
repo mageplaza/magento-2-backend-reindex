@@ -35,12 +35,20 @@ Install via composer (recommend)
 
 Run the following command in Magento 2 root folder:
 
+With Marketing Automation (recommend):
+```
+composer require mageplaza/module-backend-reindex mageplaza/module-smtp
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+
+Without Marketing Automation:
 ```
 composer require mageplaza/module-backend-reindex
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
-
 ## 4. Highlight Features 
 
 ### Reindex data within Magento 2 admin 
@@ -163,3 +171,16 @@ Select index management role at **Role Resources** section, then click on **Save
 - [M2 Same Order Number](https://github.com/mageplaza/magento-2-same-order-number)
 - [M2 Ajax Layered Navigation](https://github.com/mageplaza/magento-2-ajax-layered-navigation)
 - [M2 security module](https://github.com/mageplaza/magento-2-security)
+
+
+**Get more [Magento 2 extension on Marketplace](https://marketplace.magento.com/partner/Mageplaza):**
+- [M2 Configurable Product Preselect](https://marketplace.magento.com/mageplaza-module-configurable-product-grid-view.html)
+- [M2 Payment Restriction](https://marketplace.magento.com/mageplaza-module-payment-restriction.html)
+- [M2 Frequently Bought Together](https://marketplace.magento.com/mageplaza-module-frequently-bought-together.html)
+- [M2 Shipping Rules](https://marketplace.magento.com/mageplaza-module-shipping-rules.html)
+- [M2 Abandoned Cart Email](https://marketplace.magento.com/mageplaza-module-abandoned-cart-email.html)
+- [M2 SMTP](https://marketplace.magento.com/mageplaza-module-smtp.html)
+- [M2 Shipping Restrictions](https://marketplace.magento.com/mageplaza-module-shipping-restriction.html)
+- [M2 Multiple Coupons](https://marketplace.magento.com/mageplaza-module-multiple-coupons.html)
+- [M2 Order Attributes](https://marketplace.magento.com/mageplaza-module-order-attributes.html)
+- [M2 Barcode](https://marketplace.magento.com/mageplaza-module-barcode.html)
